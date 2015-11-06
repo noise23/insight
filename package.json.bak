@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/bitpay/insight/issues"
   },
-  "homepage": "https://github.com/noise23/insight",
+  "homepage": "https://github.com/bitpay/insight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -46,7 +46,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-api": "git://github.com/noise23/insight-api.git"
+    "insight-bitcore-api": ">0.2.10"
   },
   "devDependencies": {
     "bower": "~1.2.8",
